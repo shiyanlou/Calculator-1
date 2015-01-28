@@ -1,0 +1,4 @@
+<!--普通按钮文字颜色-->
+<resources>
+    <color name="buttom_color">#4B0082</color>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+    android:id="@+id/txt_button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="计算器"
+    android:layout_gravity="center"
+    android:textSize="22sp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:textColor="@color/buttom_color"
+    android:background="@drawable/selector_button"
+    android:gravity="center"
+    />
+</LinearLayout>

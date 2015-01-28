@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--selector 背景选择器， 每一个item对应一种状态，从上至下扫描，如果满足则选择该item作为背景
+主要用来处理按下的效果，获取获取焦掉与离开焦点的效果
+正常情况下 state_pressed="false" 且 state_focused="false"，此时应选择最后一个item（此item无特殊要求）
+当控件被按下或者获取焦点的时候，就会匹配到第一个item，颜色就会变深，从而得到了按下的效果。
+当然每个item可以有其他的属性，这里的radius就是圆角的意思。
+-->
+<item android:state_pressed="true"><shape>
+    <corners android:radius="5dp"/>
+    <solid android:color="#EE3B3B"></solid>
+</shape></item>
+<item android:state_focused="true"><shape>
+    <corners android:radius="5dp"/>
+    <solid android:color="#EE3B3B"></solid>
+</shape></item>
+<item><shape>
+    <corners android:radius="5dp"/>
+    <solid android:color="#EE9572"></solid>
+</shape></item>
+</selector>
